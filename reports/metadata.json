@@ -1,0 +1,68 @@
+{
+  "author": "Luka Krestalica",
+  "source_sha256": "d62edb6a0c22dd8a8e992ee04f0f3e78ea9be1c74d9e9832f696f92e5810caa4",
+  "cleaning": {
+    "raw_rows": 35311,
+    "missing_by_column": {
+      "product ID": 0,
+      "Product Title": 172,
+      "Merchant ID": 0,
+      "Category Label": 44,
+      "_Product Code": 95,
+      "Number_of_Views": 14,
+      "Merchant Rating": 170,
+      "Listing Date": 59
+    },
+    "raw_categories": {
+      "Fridge Freezers": 5495,
+      "Washing Machines": 4036,
+      "Mobile Phones": 4020,
+      "CPUs": 3771,
+      "TVs": 3564,
+      "Fridges": 3457,
+      "Dishwashers": 3418,
+      "Digital Cameras": 2696,
+      "Microwaves": 2338,
+      "Freezers": 2210,
+      "fridge": 123,
+      "CPU": 84,
+      "Mobile Phone": 55,
+      "<missing>": 44
+    },
+    "missing_title_or_label": 215,
+    "empty_or_unknown": 0,
+    "conflicting_rows": 4,
+    "duplicates_removed": 4270,
+    "clean_rows": 30822,
+    "clean_categories": {
+      "Fridge Freezers": 4808,
+      "Mobile Phones": 3662,
+      "Washing Machines": 3402,
+      "TVs": 3275,
+      "Fridges": 3188,
+      "CPUs": 3043,
+      "Dishwashers": 3042,
+      "Digital Cameras": 2405,
+      "Microwaves": 2094,
+      "Freezers": 1903
+    }
+  },
+  "splits": {
+    "train": 18492,
+    "validation": 6165,
+    "test": 6165
+  },
+  "selected_model": "SVC_word_char_stats",
+  "test_accuracy": 0.9876723438767234,
+  "test_macro_f1": 0.9876651083014865,
+  "test_weighted_f1": 0.987694550620627,
+  "majority_baseline_accuracy": 0.15604217356042174,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.6.1"
+  },
+  "final_training_rows": 30822,
+  "test_evaluation_training_rows": 24657
+}

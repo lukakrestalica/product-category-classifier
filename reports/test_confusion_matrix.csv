@@ -1,0 +1,11 @@
+,CPUs,Digital Cameras,Dishwashers,Freezers,Fridge Freezers,Fridges,Microwaves,Mobile Phones,TVs,Washing Machines
+CPUs,606,0,0,0,0,0,0,2,1,0
+Digital Cameras,0,481,0,0,0,0,0,0,0,0
+Dishwashers,0,0,604,0,0,3,0,0,0,1
+Freezers,0,0,1,368,3,7,0,0,0,2
+Fridge Freezers,0,0,0,0,945,17,0,0,0,0
+Fridges,0,0,1,7,13,616,0,0,0,1
+Microwaves,0,0,0,0,0,3,413,0,0,3
+Mobile Phones,1,0,0,0,0,0,0,730,1,0
+TVs,0,0,0,0,0,0,0,2,653,0
+Washing Machines,0,0,2,1,0,3,1,0,0,673

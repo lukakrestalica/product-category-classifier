@@ -1,0 +1,7 @@
+title,expected,prediction,correct,present_in_dataset
+"iphone 7 32gb gold,4,3,Apple iPhone 7 32GB",Mobile Phones,Mobile Phones,True,False
+olympus e m10 mark iii geh use silber,Digital Cameras,Digital Cameras,True,True
+kenwood k20mss15 solo,Microwaves,Microwaves,True,False
+bosch wap28390gb 8kg 1400 spin,Washing Machines,Washing Machines,True,True
+bosch serie 4 kgv39vl31g,Fridge Freezers,Fridge Freezers,True,False
+smeg sbs8004po,Fridge Freezers,Dishwashers,False,False
